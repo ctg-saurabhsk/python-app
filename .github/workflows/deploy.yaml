@@ -3,11 +3,11 @@ name: Deploy to ECR
 on:
  
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 env:
   ECR_REPOSITORY: flask-app
-  EKS_CLUSTER_NAME: Kubernetes-demo 
+  EKS_CLUSTER_NAME: ctg-devops 
   AWS_REGION: us-east-1
 
 jobs:
